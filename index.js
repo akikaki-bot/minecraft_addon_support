@@ -34,7 +34,7 @@ client.on('ready',async () => {
 console.log("起動成功！やったぁ！")
 //register(client)
 client.user.setActivity({
-    name: `/help | まいんくらふと`
+    name: `サーバー移行メンテナンス中です。開始予定は**4/7 22:30**です。`
    })
     const data = [
        {
@@ -72,8 +72,9 @@ client.user.setActivity({
         }],
       }
     ]
-   await client.application.commands.set(data);
+  // await client.application.commands.set(data);
  }) 
+/*
 client.on('messageCreate',message => {
 if(message.content === "mc!help" || message.content === "mc!be" || message.content === "mc!re" || message.content === "mc!uuid" || message.content === "mc!function"){
 message.channel.send('このボットはスラッシュコマンドのみのサポートとなっています。スラッシュコマンドが無かったら、ここからもう一度招待しなおしてみてください。\nhttps://discord.com/api/oauth2/authorize?client_id=872373181481111572&permissions=8&scope=bot%20applications.commands')}
@@ -197,6 +198,6 @@ interaction.editReply('Error! Check the permissions.')
   }
 
 
- })
+ })*/
   
   client.login(process.env.token)

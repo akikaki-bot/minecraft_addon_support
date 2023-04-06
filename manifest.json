@@ -1,17 +1,17 @@
 {
     "format_version": 1,
     "header": {
-        "name": "テクスチャサンプル",
+        "name": "aaa",
         "description": "このアドオンはbotで作られました。", 
         
-   "uuid": "cd6e5dc2-3495-46e1-8e55-4dda1f3d9288",
+   "uuid": "281f3a5f-6b92-4171-8374-5b5ed1759303",
         "version": [0, 0, 0]
     },
     "modules": [
         {
             "description": "このアドオンはbotで作られました。",
             "type": "resources",
-            "uuid": "7c2f9989-cd28-4847-a107-dccbe0532e06",
+            "uuid": "c4935cb7-0e63-4e8c-aa12-241dd0561c88",
             "version": [0, 0, 0]
         }
     ]

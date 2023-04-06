@@ -12,5 +12,5 @@ uuid: () => {
         }
     }
     return chars.join("");
-}
+  }
 }
